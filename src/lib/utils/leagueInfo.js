@@ -26,10 +26,10 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 0,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      // "roster": 0,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1182054693794983936",
       "name": "Jonathan Ivers",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York", // (optional)
       "bio": "This guy seems pretty cool",
       "photo": "/managers/gonzo.png", // square ratio recommended (no larger than 500x500)
@@ -49,9 +49,9 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      // "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Harrison Ivers",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York 2", // (optional)
       "bio": "This guy kinda stinks",
       "photo": "/managers/gorgon.jpg", // square ratio recommended (no larger than 500x500)
