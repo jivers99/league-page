@@ -83,9 +83,9 @@ export const managers = [
       "favoriteTeam": "mia", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Eric McGarry", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Eric.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Josh Small", // Can be anything (usually your rival's name)
+        link: 4, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Josh.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 6801, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -129,9 +129,9 @@ export const managers = [
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Joe Pham", // Can be anything (usually your rival's name)
-        link: 8, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Joe.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Jake Fegan", // Can be anything (usually your rival's name)
+        link: 2, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Jake.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 96, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -152,7 +152,7 @@ export const managers = [
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Frank", // Can be anything (usually your rival's name)
+        name: "Frank Perez", // Can be anything (usually your rival's name)
         link: 11, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Frank.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
@@ -175,9 +175,9 @@ export const managers = [
       "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Jake Fegan", // Can be anything (usually your rival's name)
-        link: 2, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Jake.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Joe Pham", // Can be anything (usually your rival's name)
+        link: 8, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Joe.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 7094, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -221,9 +221,9 @@ export const managers = [
       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Josh Small", // Can be anything (usually your rival's name)
-        link: 4, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Josh.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Eric McGarry", // Can be anything (usually your rival's name)
+        link: 6, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Eric.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 7131, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -281,7 +281,7 @@ export const managers = [
     {
       // "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1216142548578336768",
-      "name": "Frank",
+      "name": "Frank Perez",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York", // (optional)
       "bio": "Frank",
